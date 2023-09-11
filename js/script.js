@@ -5,7 +5,7 @@ data(){
     }
 },
 mounted(){
-axios.get("http://localhost/php-dischi-json/php-dischi-json/dischi.php")
+axios.get("dischi.php")
 .then((response) => {
     this.dischi = response.data;
     console.log(response);
