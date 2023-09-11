@@ -1,13 +1,14 @@
 const app = Vue.createApp({
 data(){
     return{
-        dischi:[]
+        dischi:[],
     }
 },
 mounted(){
 axios.get("http://localhost/php-dischi-json/php-dischi-json/dischi.php")
 .then((response) => {
     this.dischi = response.data;
+    console.log(response);
 });
 }
 

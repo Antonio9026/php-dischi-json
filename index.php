@@ -15,7 +15,9 @@
 
 <body>
     <div id="app">
-
+      <ul>
+        <li v-for="(disco, i) in dischi">{{ disco.titolo }}</li>
+      </ul>
     </div>
     <script src="js/script.js"></script>
 </body>
