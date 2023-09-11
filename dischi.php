@@ -7,4 +7,6 @@ $string = file_get_contents("dischi.json");
 $card = json_decode($string, true);
 var_dump($string);
 var_dump($card);
+
+header("Content-type: application/json");
 ?>
