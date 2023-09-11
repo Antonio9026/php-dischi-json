@@ -15,9 +15,18 @@
 
 <body>
     <div id="app">
-      <ul>
-        <li v-for="(disco, i) in dischi">{{ disco.titolo }}</li>
-      </ul>
+     <div class="container">
+      <div class="card" v-for="disco in dischi">
+        <div class="img_container">
+          <img :src="disco.copertina" alt="">
+        </div>
+        <div class="info">
+          <h1 class="titolo">{{ disco.titolo }}</h1>
+          <p class="autore"> {{ disco.autore }}</p>
+          <p class="anno">{{disco.anno}}</p>
+        </div>
+      </div>
+     </div>
     </div>
     <script src="js/script.js"></script>
 </body>
