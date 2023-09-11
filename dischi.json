@@ -1,0 +1,39 @@
+[
+    {
+        "copertina":"https://www.rollingstone.it/wp-content/uploads/2023/06/babygang.jpeg",
+        "titolo":"Innocente",
+        "autore":"Baby Gang",
+        "anno":"2023"
+    },
+    {
+        "copertina":"https://www.rollingstone.it/wp-content/uploads/2023/04/baustelle-elvis.jpg",
+        "titolo":"Elvis",
+        "autore":"Baustelle",
+        "anno":"2023"
+    },
+    {
+        "copertina":"https://www.rollingstone.it/wp-content/uploads/2023/05/nouvelles-adventures.jpeg",
+        "titolo":"Nouvelles Aventures",
+        "autore":"Calibro 35",
+        "anno":"2023"
+    },
+    {
+        "copertina":"https://www.rollingstone.it/wp-content/uploads/2023/06/chiello.jpg",
+        "titolo":"Mela marcia",
+        "autore":"Chiello",
+        "anno":"2023"
+    },
+    {
+        "copertina":"https://www.rollingstone.it/wp-content/uploads/2023/04/spira.jpeg",
+        "titolo":"Spira",
+        "autore":"Daniela Pes",
+        "anno":"2023"
+    },
+    {
+        "copertina":"https://www.rollingstone.it/wp-content/uploads/2023/02/Ok.-Respira_album-cover.jpg",
+        "titolo":"Ok. Respira",
+        "autore":"Elodie",
+        "anno":"2023"
+    }
+ 
+]
